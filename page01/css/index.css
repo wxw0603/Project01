@@ -1,0 +1,129 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    height: 800px;
+}
+header{
+    overflow: hidden;
+}
+.banner{
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-right: 8%;
+    margin-top: 1%;
+}
+
+.center{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.center div{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.center-left img{
+    width: 60%;
+    height: 60%;
+    float: left;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+.center .center-right{
+    height: 100%;
+    width: 50%;
+}
+.center-right a{
+    width: 100%;
+    height: 30%;
+    margin-top: 15%;
+    display: block;
+    background-repeat: no-repeat;
+}
+.but01{
+    background-image: url("../images/but01.jpg");
+}
+.center-right .but02{
+    background-image: url("../images/but02.jpg");
+    margin-left: 20%;
+}
+
+.but01:hover{
+    background-image: url("../images/but01-hover.jpg");
+}
+.but02:hover{
+    background-image: url("../images/but02-hover.jpg");
+}
+.but01:active{
+    background-image: url("../images/but01.jpg");
+}
+
+
+.but02:active{
+    background-image: url("../images/but02.jpg");
+}
+
+.but01:hover .Loginbg{
+    display: block;
+}
+
+.Loginbg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0000005c;
+    z-index: 0;
+    top: 0px;
+    display: none;
+}
+
+.Loginbg .Loginpage{
+    position: absolute;
+    height: 30%;
+    width: 25%;
+    margin-left: 50%;
+    margin-top: 50%;
+    bottom: 35%;
+    right: 38%;
+    background-repeat: repeat;
+    background-image: url("../images/background.jpg") ;
+    border: 10px solid #00bcd4;
+    overflow: hidden;
+}
+
+.Loginbg .Loginpage label{
+    line-height: 2.5vh;
+    font-size: 2.5vh;
+    display: block;
+    margin: 10%;
+    font-family: 华文琥珀;
+    color: #3e6468;
+}
+
+.Loginbg .Loginpage label .in{
+    width: 50%;
+    height: 2vh;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border: 3px solid #74715d;
+    border-radius: 10%;
+}
+
+.Loginpage button{
+    height: 3.1vh;
+    width: 30%;
+    margin: 9%;
+    font-size: 2.5vh;
+    font-family: 华文琥珀;
+    color: #3e6468;
+    background-color: #00ddf4;
+    border-radius: 10%;
+}

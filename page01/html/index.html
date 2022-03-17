@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/index.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+    <header>
+        <img class="banner" src="../images/banner.jpg"  alt="网络被淦" />
+    </header>
+    <div class="center" >
+        <div class="center-left">
+            <img src="../images/bg-xx.jpg"  alt="网络被淦" />
+        </div>
+        <div class="center-right">
+            <a class="but01" href="#" id="1" ></a>
+            <a class="but02" href="#" id="3" onclick="custom_close()" ></a>
+        </div>
+    </div>
+
+    <div class="Loginbg" id="2" >
+
+        <div class="Loginpage">
+            <form action="" method="get">
+                <label name="username" >用户名<input class="in" name="username" type="text" ></label>
+                <label name = "password">密码<input class="in" name="password" type="password" ></label>
+                <button type="submit"  >登录</button>
+                <button type="submit"  >注册</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    window.onload=function(){
+        var but=document.getElementById('1');
+        var Log=document.getElementById('2');
+        var quit=document.getElementById('3');
+        but.addEventListener('mousedown',function(){
+            Log.style.display="block";
+        });
+    }
+    function custom_close() {
+        window.opener = null;
+        window.open('', '_self');
+        window.close();
+    }
+</script>
+</html>
